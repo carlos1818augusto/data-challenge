@@ -24,5 +24,5 @@ O schema do banco se chama `looqbox-challenge`, com hífen. O código Python con
 ## Observações
 
 - O caso 1 usa SQL parametrizado e valida as datas antes da consulta.
-- O caso 2 mantem as duas consultas do cliente inalteradas e aplica o filtro de datas solicitado no pandas.
+- O caso 2 mantém as duas consultas do cliente inalteradas e aplica o filtro de datas solicitado no pandas.
 - O caso 3 expande os gêneros da tabela IMDB separados por vírgula e compara os principais gêneros por receita média.
