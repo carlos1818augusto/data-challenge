@@ -292,10 +292,10 @@ def generate_pdf(
     story.append(_table_from_df(case_2, widths=[150, 110, 60]))
     story.append(PageBreak())
 
-    story.append(Paragraph("Caso 3 - Visualizacao com IMDB", styles["Heading2"]))
+    story.append(Paragraph("Caso 3 - Visualização com IMDB", styles["Heading2"]))
     story.append(
         Paragraph(
-            "Escolhi um grafico de barras horizontais porque o objetivo e comparar categorias com clareza. "
+            "Escolhi um gráfico de barras horizontais porque o objetivo é comparar categorias com clareza. "
             "A coluna Genre possui múltiplos valores por filme, então cada filme foi expandido para suas tags de gênero. "
             "Considerei apenas gêneros com pelo menos 15 filmes e receita não nula para reduzir ruído de grupos muito pequenos.",
             styles["Normal"],
